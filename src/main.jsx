@@ -1,10 +1,26 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import {
+  createBrowserRouter,
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+  RouterProvider,
+} from "react-router-dom";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import ReactDOM from "react-dom/client"
+import App from "./App"
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "portfolio",
+        element: <Portfolio />
+      }
+    ]
+  }
+])
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <RouterProvider router={router} />
+
+);
