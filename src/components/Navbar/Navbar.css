@@ -1,0 +1,13 @@
+.bg-nav {
+    background-color: rgba(0, 0, 0, 0.858);
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: lightgoldenrodyellow !important;
+}
+
+a.nav-link.active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.858) !important;
+}

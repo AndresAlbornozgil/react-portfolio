@@ -1,13 +1,14 @@
-// import './Portfolio.css';
+import './Portfolio.css';
 
 function Portfolio() {
   
 
     return (
       <>
-        <div>hi</div>
+        <div>Portfolio</div>
       </>
     )
   }
   
   export default Portfolio
+  
