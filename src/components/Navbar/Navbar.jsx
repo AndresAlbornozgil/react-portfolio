@@ -6,6 +6,7 @@ function NavBar() {
   const currentPage = useLocation().pathname;
 
   return (
+    <div>
     <ul className="nav nav-tabs bg-nav">
       <li className="nav-item">
         <Link
@@ -45,6 +46,7 @@ function NavBar() {
         </Link>
       </li>
     </ul>
+    </div>
   );
   }
   
