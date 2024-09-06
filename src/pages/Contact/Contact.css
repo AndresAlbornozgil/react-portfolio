@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin-bottom: 5vh !important;
+    margin-bottom: 7vh !important;
     font-size: 3em;
     font-weight: 500 !important;
+    color: rgba(245, 245, 245, 0.817);
 }
 
 #contactForm {
@@ -19,4 +20,5 @@
     background-color: rgba(0, 0, 0, 0.858);
     border: rgba(0, 0, 0, 0.858);
     color: lightgoldenrodyellow;
+    font-weight: 500;
 }
