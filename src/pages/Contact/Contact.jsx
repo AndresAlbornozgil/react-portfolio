@@ -5,7 +5,6 @@ function Contact() {
 
     return (
       <div>
-        <img id='airplane' src="src\assets\images\steampunk-city-airplane.jpg" alt="Image of airplane" />
         <main id='contactForm' className="form-signin w-50 m-auto">
         <h1 id='contactMe' className="h3 mb-3 fw-normal">Contact Me</h1>
   <form>

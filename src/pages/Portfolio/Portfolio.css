@@ -1,5 +1,14 @@
+#airplane {
+    width: 100%;
+    border-bottom: solid 3px;
+}
+
 #viewButton {
     background-color: rgba(0, 0, 0, 0.858);
     border: rgba(0, 0, 0, 0.858);
     color: lightgoldenrodyellow;
+}
+
+#gears {
+    border-top: solid black 3px;
 }

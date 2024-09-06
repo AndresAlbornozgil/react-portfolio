@@ -5,6 +5,7 @@ function Portfolio() {
 
     return (
       <div>
+        <img id='airplane' src="src\assets\images\steampunk-city-airplane.jpg" alt="Image of airplane" />
         <div id='projects' className="album py-5 bg-body-tertiary">
     <div className="container">
 
@@ -131,6 +132,7 @@ function Portfolio() {
       </div>
     </div>
   </div>
+  <img id='gears' src="src\assets\images\steampunk-gears.jpg" className="d-block mx-lg-auto img-fluid" alt="Image of gears" width="100%" height="20px" loading="lazy"></img>
       </div>
     )
   }
