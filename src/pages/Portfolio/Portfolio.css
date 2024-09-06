@@ -1,3 +1,5 @@
-#airplane {
-    width: 100%;
+#viewButton {
+    background-color: rgba(0, 0, 0, 0.858);
+    border: rgba(0, 0, 0, 0.858);
+    color: lightgoldenrodyellow;
 }

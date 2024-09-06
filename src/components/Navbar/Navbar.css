@@ -8,6 +8,7 @@
 
 .bg-nav {
     background-color: rgba(0, 0, 0, 0.858);
+    border: none !important;
 }
 
 a.nav-link {

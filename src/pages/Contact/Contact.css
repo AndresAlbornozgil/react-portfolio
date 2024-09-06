@@ -1,0 +1,25 @@
+#airplane {
+    width: 100%;
+}
+
+#contactMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5vh !important;
+    font-size: 3em;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#SubmitButton {
+    background-color: rgba(0, 0, 0, 0.858);
+    border: rgba(0, 0, 0, 0.858);
+    color: lightgoldenrodyellow;
+}
