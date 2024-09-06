@@ -6,7 +6,7 @@ function Contact() {
     return (
       <div>
         <main id='contactForm' className="form-signin w-50 m-auto">
-        <h1 id='contactMe' className="h3 mb-3 fw-normal">Contact Me</h1>
+        <h1 id='contactMe' className="h3 mb-3 fw-normal">Contact me</h1>
   <form>
     <div className="form-floating">
       <input type="name" className="form-control" id="floatingInput" placeholder="Name" />
