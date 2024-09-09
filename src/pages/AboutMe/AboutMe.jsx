@@ -1,4 +1,5 @@
 import './AboutMe.css';
+import headshot from '../../assets/images/my-picture.jpg'
 
 function AboutMe() {
   
@@ -12,7 +13,7 @@ function AboutMe() {
         <strong><p id='aboutMeParagraph' className="lead">A Full-Stack Web Developer passionate about crafting meaningful experiences. Whether it's designing intuitive user interfaces or building robust back-end systems, I'm all about bringing ideas to life on the web.</p></strong>
       </div>
       <div className="col-10 col-sm-8 col-lg-6">
-        <img id='portfolio-picture' src="src\assets\images\my-picture.jpg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="450" loading="lazy" />
+        <img id='portfolio-picture' src={headshot} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="450" loading="lazy" />
       </div>
     </div>
   </div>

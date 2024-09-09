@@ -11,13 +11,19 @@
     color: whitesmoke;
 }
 
-#viewButton {
+#gears {
+    border-top: solid black 3px;
+}
+
+a.btn {
     background-color: lightgoldenrodyellow;
     color: rgba(0, 0, 0, 0.858);
     border: rgba(0, 0, 0, 0.858);
     font-weight: 500;
 }
 
-#gears {
-    border-top: solid black 3px;
+a.btn:hover {
+    background-color: lightgoldenrodyellow; /* Same as normal state */
+    color: rgba(0, 0, 0, 0.858); /* Same as normal state */
+    border: 1px solid rgba(0, 0, 0, 0.858); /* Same as normal state */
 }
