@@ -19,7 +19,7 @@ Deployed on [Netlify](https://66df6275f06bc70008c82715--majestic-gelato-aba809.n
 
 The idea of completing this project is to create a portfolio with the goal to display my work for visitors so they can have the opportunity to reach out if they would like to work together on future projects.
 
-![image of portfolio website]()
+![image of portfolio website](src/assets/images/react-portfolio-cover.JPG)
 
 ## Credits
 Andres Albornoz
