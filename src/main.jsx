@@ -4,7 +4,7 @@ import Resume from "./pages/Resume/Resume";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Contact from "./pages/Contact/Contact";
 import ReactDOM from "react-dom/client"
-import App from "./App"
+import App from "./App";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
