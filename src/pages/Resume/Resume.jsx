@@ -1,78 +1,72 @@
 import './Resume.css';
 
 function Resume() {
-  
-
-    return (
-      <div id='resumeContainer'>
-        <div id='resume' className="container">
+  return (
+    <div id='resumeContainer'>
+      <div id='resume' className="container">
         <div className="header">
-            <h1>ANDRES ALBORNOZ</h1>
-            <p>Orlando, Florida 32837 ⧫ (407) 318-0321 ⧫ aalborgil002@gmail.com ⧫ <a href="https://www.linkedin.com/in/a-albornoz/">LinkedIn Profile</a></p>
+          <h1>ANDRES ALBORNOZ</h1>
+          <p>Orlando, FL ⧫ (407) 318-0321 ⧫ <a href="mailto:aalborgil002@gmail.com">aalborgil002@gmail.com</a> ⧫ <a href="https://www.linkedin.com/in/a-albornoz/">LinkedIn</a> ⧫ <a href="https://github.com/AndresAlbornozgil">GitHub</a></p>
         </div>
         <hr />
+
         <div className="section">
-            <h2>OBJECTIVE</h2>
-            <p>I am a Full-Stack Developer passionate about front-end UI/UX design. I blend technical expertise with creative design to build intuitive, visually appealing web applications. My background in psychology offers insights into user behavior, enhancing my ability to create user-friendly interfaces. With years of sales experience, I excel at understanding client needs and delivering exceptional solutions.</p>
+          <h2>PROFESSIONAL SUMMARY</h2>
+          <p>
+            A versatile professional with a background in Psychology and over a decade of experience in sales and marketing across Real Estate, Insurance, Retail, SaaS, and Education. Completed a 24-week intensive full-stack development program focused on modern web technologies. Solution-oriented and adaptable, with a unique blend of technical proficiency and human-centered insight. Strong understanding of user behavior, combined with business acumen and technical skills to deliver innovative and intuitive solutions.
+          </p>
         </div>
+
         <div className="section">
-            <h2>EDUCATION</h2>
-            <p><strong>University of Central Florida, Orlando, FL</strong> <span className="date">Graduation, September 2024</span><br />
-            Bootcamp, Full-Stack Web Development</p>
-            <p><strong>University of Central Florida, Orlando, FL</strong> <span className="date">Graduation, August 2016</span><br />
-            BS, Psychology</p>
-            <ul>
-                <li>GPA: 3.8/4.0: Dean’s List Honors</li>
-            </ul>
+          <h2>TECHNICAL SKILLS</h2>
+          <p>JavaScript, HTML5, CSS3, Python | React.js, Handlebars.js, Bootstrap, Tailwind CSS, jQuery | Node.js, Express.js, REST APIs, GraphQL | PostgreSQL, MongoDB, Sequelize, Mongoose | Git, GitHub, Render, Postman | Agile, MVC, CRUD, Responsive Design</p>
         </div>
+
         <div className="section">
-            <h2>PROFESSIONAL EXPERIENCE</h2>
-            <p><strong>MotionCX, Columbus, OH</strong> <span className="date">July 2023 - Present</span><br />
-            <span className="job-title">Solutions Specialist</span></p>
-            <ul>
-                <li>Proactively identify and pursue new business opportunities within designated market segments.</li>
-                <li>Build and maintain strong relationships with key stakeholders, including decision-makers and influencers.</li>
-                <li>Coordinate and participate in meetings, demos, and presentations to showcase products/services.</li>
-            </ul>
-            <p><strong>CreditPoint Software, Tulsa, OK</strong> <span className="date">January 2023 - July 2023</span><br />
-            <span className="job-title">Business Development Strategist</span></p>
-            <ul>
-                <li>Utilized various communication channels (phone, email, social media) to engage prospects and nurture leads.</li>
-                <li>Collaborated with cross-functional teams (marketing, product, customer success) to ensure alignment and support in the sales process.</li>
-                <li>Tracked sales activities and maintained accurate records in CRM systems for reporting and analysis.</li>
-            </ul>
-            <p><strong>Independent Contractor, Orlando, FL</strong> <span className="date">February 2017 - December 2022</span><br />
-            <span className="job-title">Realtor</span></p>
-            <ul>
-                <li>Conducted engaging sales presentations and property showings, showcasing the unique features and benefits of vacation properties to potential buyers.</li>
-                <li>Guided clients through the buying process with expert advice, ensuring informed decisions and smooth, successful transactions.</li>
-                <li>Closed deals by effectively negotiating terms and addressing client concerns, resulting in satisfied buyers and successful sales.</li>
-            </ul>
-            <p><strong>Independent Contractor, Orlando, FL</strong> <span className="date">February 2017 - December 2019</span><br />
-            <span className="job-title">Insurance Broker</span></p>
-            <ul>
-                <li>Developed and maintained a portfolio of clients, including individuals and businesses, by offering tailored insurance solutions to meet their needs and objectives.</li>
-                <li>Provided expert guidance to clients on various insurance products, including life & health insurance, ensuring comprehensive coverage and financial security.</li>
-                <li>Stayed current on industry trends, market conditions, and regulatory changes to provide clients with informed advice and recommendations.</li>
-            </ul>
+          <h2>CERTIFICATIONS</h2>
+          <ul>
+            <li>Google IT Support Professional Certificate</li>
+            <li>Codecademy Computer Science Career Path</li>
+          </ul>
         </div>
+
         <div className="section">
-            <h2>ACTIVITIES & OTHER INFORMATION</h2>
-            <p><strong>Certifications & Awards:</strong> 1st Degree Black Belt (Shito-Ryu Karate), 215 Life & Health Insurance License, Real Estate Agent License, Google IT Support Certificate by Coursera.</p>
-            <p><strong>Technical Skills & Tools:</strong> MERN Stack, GitHub, VS Code, Command-line Interface, HTML, CSS, JavaScript, Node, Express, PostgreSQL, MongoDB, React, GraphQL, Microsoft 365, Google Workspace, Salesforce, HubSpot.</p>
-            <p><strong>Interests & Hobbies:</strong> Fitness, Video Games, Programming, Watching Movies.</p>
-            <p><strong>Portfolio:</strong> <a href="https://github.com/AndresAlbornozgil">https://github.com/AndresAlbornozgil</a></p>
+          <h2>EDUCATION</h2>
+          <p><strong>University of Central Florida</strong> — Software Development Bootcamp <span className="date">Graduated September 2024</span></p>
+          <p><strong>University of Central Florida</strong> — B.S. in Psychology <span className="date">Graduated August 2016</span></p>
         </div>
-    </div>
 
+        <div className="section">
+          <h2>WORK EXPERIENCE</h2>
+          <p><strong>808 MultiMedia</strong> — Junior Software Developer <span className="date">June 2024 – Present</span></p>
+          <ul>
+            <li>Collaborated on real-world software projects with guidance from mentors.</li>
+            <li>Refactored existing code to improve clarity and performance.</li>
+            <li>Updated documentation and contributed to technical team discussions.</li>
+          </ul>
 
-        
+          <p><strong>Sales & Marketing Consultant</strong> <span className="date">2011 – Present</span></p>
+          <ul>
+            <li>Delivered results-driven sales and marketing strategies across multiple industries.</li>
+            <li>Created and executed outreach campaigns and client engagement strategies.</li>
+            <li>Maintained up-to-date knowledge on trends and certifications in multiple sectors.</li>
+          </ul>
+        </div>
 
+        <div className="section">
+          <h2>PROJECT EXPERIENCE</h2>
+          <p><strong>Mood-Sync</strong> — <a href="https://github.com/Mtduffey36/mood-sync">GitHub Repo</a></p>
+          <p>Mental health tracking app built with MVC architecture. Features include mood logging, authentication, data visualization. Built with Node.js, Express, PostgreSQL, Sequelize, Handlebars, Bootstrap.</p>
 
+          <p><strong>Hair & Co</strong> — <a href="https://github.com/Mtduffey36/hair-and-co">GitHub Repo</a></p>
+          <p>Salon appointment booking system with admin and client views. Built using React.js, Tailwind, Node.js, GraphQL, MongoDB.</p>
 
+          <p><strong>OUTLets</strong> — <a href="https://github.com/fsfgroup8/OUTlets">GitHub Repo</a></p>
+          <p>Event discovery platform using JavaScript, Bootstrap, HTML, and third-party APIs. Focused on mobile-first, responsive design and accessibility.</p>
+        </div>
       </div>
-    )
-  }
-  
-  export default Resume
-  
+    </div>
+  );
+}
+
+export default Resume;
