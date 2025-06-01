@@ -22,10 +22,10 @@ function Portfolio() {
               <Project image={moodsync} description="Mood-Sync is an application used to track patterns in users mental health." href="https://github.com/AndresAlbornozgil/mood-sync"/>
             </div>
             <div className="col">
-              <Project image={project} description="Coming soon" href="https://example.com"/>
+              <Project image={project} description="Hair & Co, a full-stack web application for a hair salon business." href="https://github.com/AndresAlbornozgil/hair-and-co"/>
             </div>
             <div className="col">
-              <Project image={project} description="Coming soon" href="https://example.com"/>
+              <Project image={project} description="Taskflo, a web app to help users manage their daily tasks." href="https://github.com/AndresAlbornozgil/task-manager-app"/>
             </div>
             <div className="col">
               <Project image={project} description="Coming soon" href="https://example.com"/>
