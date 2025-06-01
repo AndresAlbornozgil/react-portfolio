@@ -7,6 +7,7 @@ import moodsync from "../../assets/images/projects/Mood-Sync.jpg";
 import outlets from "../../assets/images/projects/Outlets.jpg";
 
 
+
 function Portfolio() {
   return (
     <div>
